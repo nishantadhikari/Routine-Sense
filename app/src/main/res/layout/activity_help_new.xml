@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5" >
+
+    <ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ViewSwitcher"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"  >
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imageView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/t1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screen1"/>
+            <TextView
+                android:text="This is your Home Page and contains your profile info"
+                android:id="@+id/t1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                 />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"  >
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imageView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/t2"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screen2"/>
+            <TextView
+                android:text="Click on top left corner menu icon to pull the navigation drawer"
+                android:id="@+id/t2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"  >
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imageView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/t3"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screen3"/>
+            <TextView
+                android:text="Pie Chart for daily and monthly Activities"
+                android:id="@+id/t3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_alignParentBottom="true"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"  >
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imageView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/t4"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screen4"/>
+            <TextView
+                android:text="Bar Graph for daily and monthly Activities"
+                android:id="@+id/t4"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_alignParentBottom="true"
+                />
+
+
+
+        </RelativeLayout>
+
+    </ViewSwitcher>
+</LinearLayout>

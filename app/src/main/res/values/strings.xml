@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoutineSense</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- Button text -->
+    <string name="rank">Your Rank</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_check_updates">Check for updates</string>
+    <string name="btn_fileupload">File Upload</string>
+
+    <string name="download">&#xf0ed;</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+
+    <string-array name="about_item">
+        <item>This is an appplicaion used for collection of sensor data form  the phone</item>
+        <item>Ranking</item>
+        <item>My Locations</item>
+        <item>Week Activities</item>
+        <item>Month Activities</item>
+        <item>Help</item>
+
+    </string-array>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Profile</item>
+        <item>Friends</item>
+        <item>Weekly Locations</item>
+        <item>Monthly Locations</item>
+        <item>Week Activities</item>
+        <item>Month Activities</item>
+        <item>Weekly Analysis</item>
+        <item>Daily Report</item>
+        <item>Help</item>
+        <item>About Us</item>
+        <item>Updates</item>
+        <item>Stop Sensing</item>
+    </string-array>
+    <string name="hint">Editor #%d</string>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_person_black</item>
+        <item>@drawable/ic_people_black</item>
+        <item>@drawable/ic_locations</item>
+        <item>@drawable/ic_locations</item>
+        <item>@drawable/ic_time</item>
+        <item>@drawable/ic_time</item>
+        <item>@drawable/ic_equalizer_black</item>
+        <item>@drawable/ic_equalizer_black</item>
+        <item>@drawable/ic_help_black</item>
+        <item>@drawable/ic_info_black</item>
+        <item>@drawable/ic_update_black</item>
+        <item>@drawable/ic_block_black</item>
+
+    </array>
+    <array name="help_tip">
+        <item>"This is home page it contains your profile info"</item>
+        <item>"hmm"</item>
+        <item>"hiij"</item>
+        <item>"hmmiiiiiiiiiiiiiiiiiiii"</item>
+    </array>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_help_activity">Help_activity</string>
+    <string name="title_activity_about">About</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_monthlystats">My_Monthly_Stats</string>
+    <string name="location">Favourite Location this week</string>
+    <string name="title_activity_location_stats">LocationStats</string>
+    <string name="title_activity_help_new">Help</string>
+    <string name="title_activity_weekly_compare">This week\'s analysis</string>
+    <string name="abouttext">
+
+        "This is an appplicaion used for collection of sensor data form  the phone.\n\nThis App is created under guidance of Dr. Vinayak Naik.\n\nPlease feel free to give review of this app by"
+    </string>
+    <string name="linkreview">
+        "&lt;a href="https://docs.google.com/forms/d/1Sl1ml1MFpDCLgiLGhCYxLFMzZNLp1aOJ9OgtLiBZsOY/viewform?usp=send_form">Clicking here&lt;/a>"
+    </string>
+    <string name="title_activity_calendar">Monthly Analysis</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

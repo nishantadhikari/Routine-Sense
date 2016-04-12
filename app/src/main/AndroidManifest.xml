@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mc.iiitd.myroutine"
+    android:versionCode="220"
+    android:versionName="2.2.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    >
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mc.iiitd.myroutine.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mc.iiitd.myroutine.AboutActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.mc.iiitd.myroutine.BootStartUpReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mc.iiitd.myroutine.SensingController">
+            <intent-filter>
+                <action android:name="collect_sensor_data" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mc.iiitd.myroutine.WiFiBroadcastListener">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mc.iiitd.myroutine.Uploader.BatteryBroadcastHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mc.iiitd.myroutine.SensorService" />
+        <service android:name="com.mc.iiitd.myroutine.LocationService" />
+        <service android:name="com.mc.iiitd.myroutine.Uploader.FileUploaderService" />
+        <service android:name="com.mc.iiitd.myroutine.ActivityService" />
+        <service android:name="com.mc.iiitd.myroutine.ActivityRecognitionIntentService" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="39f16a891a619038bbc5596ea7f26f673ae272cc" />
+
+        <activity
+            android:name="com.mc.iiitd.myroutine.Main2Activity"
+            android:label="Routine Sense"
+            >
+
+        </activity>
+        <activity
+            android:name="com.mc.iiitd.myroutine.MonthlyStats"
+            android:label="@string/title_activity_monthlystats" />
+        <activity
+            android:name="com.mc.iiitd.myroutine.LocationStats"
+            android:label="@string/title_activity_location_stats" />
+        <activity
+            android:name="com.mc.iiitd.myroutine.help_new"
+            android:label="@string/title_activity_help_new" />
+        <activity
+            android:name="com.mc.iiitd.myroutine.WeeklyCompare"
+            android:label="@string/title_activity_weekly_compare" />
+        <activity
+            android:name="com.mc.iiitd.myroutine.CalendarAct"
+            android:label="@string/title_activity_calendar"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4ec093dc2792ad9b2e8f4e093e1148272ea06542" />
+    </application>
+
+</manifest>

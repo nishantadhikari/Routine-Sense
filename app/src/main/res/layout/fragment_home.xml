@@ -1,0 +1,299 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".GooglePlusActivity"
+
+    >
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    tools:context=".GooglePlusActivity"
+    android:weightSum="1"
+    android:layout_above="@+id/relativeLayout"
+    android:layout_alignParentTop="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".GooglePlusActivity"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgProfilePic"
+            android:src="@drawable/common_ic_googleplayservices"
+            android:layout_alignParentTop="true"
+
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Username"
+                android:id="@+id/txtName"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sense Routine with Routine Sense"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+                -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="email_id"
+                android:id="@+id/txtEmail"
+                android:layout_below="@+id/txtName"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:id="@+id/time"
+                    android:drawableLeft="@drawable/ic_time"
+                    android:text="Time"
+                    android:layout_width="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datacol"
+                    android:text="Collection"
+                    android:drawableLeft="@drawable/ic_datacol"
+                    android:layout_width="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="1" />
+
+           </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datasent"
+                    android:text="Data Sent"
+                    android:drawableLeft="@drawable/ic_action"
+                    android:layout_width="20dp"
+                    android:layout_below="@+id/time"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/btn_fileupload"
+                    android:text="Upload"
+                    android:drawableLeft="@drawable/ic_save"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="1" />
+           </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DataShown"
+        android:id="@+id/Result"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:layout_weight="0.28">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_toStartOf="@+id/imageView2"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rank this week"
+                android:id="@+id/Rank"
+                android:autoText="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#561c77" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Loading"
+                    android:id="@+id/txtRanking"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/ic_ran"
+            android:layout_gravity="end"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/ic_equalizer_black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weekly Activity Update"
+            android:id="@+id/textView3"
+            android:textColor="#561c77"
+            android:layout_alignParentTop="true"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Activity"
+            android:id="@+id/fav1"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/relativeLayout">
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updates"
+            android:drawableLeft="@drawable/ic_updates"
+            android:id="@+id/btn_check_updates"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_stop"
+            android:id="@+id/btn_sign_out"
+            android:text="Stop Sense" />
+
+
+    </LinearLayout>
+    -->
+</RelativeLayout>
+
+</RelativeLayout>

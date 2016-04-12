@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Nishant\.gradle\caches\modules-2\files-2.1\com.androidplot\androidplot-core\0.6.1\3db0daea52375b26bfa61c59b8df93950bdefbbc\androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\androidplot-core-0.6.1_25ea20fe2517eb450a34b89c159410c0a60c2648.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.5.0_da8372ea30a33d19dd081619a423a115663aea21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.5.0_e1b5c34186607f605389c4a854288ab3f76661a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.5.0_7c2113b76b2f0feef499b6484656422e30c87faa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.5.0_434498b59e933b9e0c4bb645bb7c0b5f0636ad0a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-7.5.0_5a122e3884bdc3f3b4ad5f402dbbdbfd262b43d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.5.0_2de1c3e3a7fae6899e6a35a63c24b3560c43e7ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.5.0_bce96be8344d48595465ccfa937c1d3e880671e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\libs\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1_11cb4db385aed9290d8914a65a75f903474aff8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0_46e2be7afbc3ead679a9de5173fa7456208cd04b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0_47df236a5a463d9cd3b82b64be2d05a7bbb802cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.5.0_55da372a2043409e53b1b90433034a8985177f7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.5.0_7d8d7a4119d3b989ae16583fd85148059b847adb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.1.0_8d123bcef3a3e8a2acd57d1aa7cab7ee02e72ddc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_896eb7bcdcf38f42e35a1dc6cfa0483e7ccf3387.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.5.0_a26cdac7da3080700434dc3a931d39a433b86288.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-22.0.0_68554f7e0e22eeaa9e48da6667fcd33be255b920.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.5.0_36e49800539e363a7763fd01d9e78237ccec8150.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\libs\httpmime-4.2.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="270386011895bc6c7ee6496fd87511d6a98093c1">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\httpmime-4.2.6_894a9539e384869fdcbb82cb1dfb076d22d38292.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_2fc81ce7aa809fabbaaf3c375dd85ffa27e2c0ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.0_53f8af970447feff2da597243593be77a06f0c5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.5.0_5c52655437a2e07385a1e4123abc0afd3e2caaae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-1-6_dfad0c8a59184e7fe1e789148defa43025b6cec9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.5.0_8b1a6bbb51cdaa28480dd35ce1b1105958488cf7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.5.0_26a1d1323e4562f0d1571c231d56d17c899c4259.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.0\support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.0_0c7ccd62011df1d29c8cf890d5a8d0909aaf2c05.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.5.0_fde94bc97d665fa4fb32de2c77fccba1a579a706.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.5.0_a89032fd527542ecca854feb0748cc2288e19de9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.5.0_4021235c6d87de4ca1078dbfdf9ae7f2a10111bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_f887c7a06d9f3dda00127be0f94788546e8169ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.5\1dd0d38df9c6d21e893f2e52403f1cd99e91cd81\httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\httpmime-4.3.5_28eae6ea2e7a5b803bdab87f1beb4c23de4907af.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Nishant\Desktop\MyRoutine\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.5.0_2de2de1f92617a339be62419817cc65a9724478a.jar" />
+    </item>
+
+</items>
